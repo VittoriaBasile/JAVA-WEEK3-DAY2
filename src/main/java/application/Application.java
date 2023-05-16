@@ -27,6 +27,8 @@ public class Application {
 				TipoEvento.PRIVATO, 30);
 		eventoDao.save(evento1);
 		eventoDao.save(evento2);
+		eventoDao.getById(evento1.getId());
+
 		eventoDao.delete(evento2.getId());
 		eventoDao.refresh(evento1.getId(), "comunione");
 

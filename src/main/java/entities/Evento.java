@@ -89,7 +89,9 @@ public class Evento {
 
 	@Override
 	public String toString() {
-		return "Titolo : " + getTitolo() + " , " + "Data Evento : " + getDataEvento();
+		return "Titolo : " + getTitolo() + " , " + "Data Evento : " + getDataEvento() + " , " + "Descrizione : "
+				+ getDescrizione() + " , " + "Tipo di evento : " + getTipoEvento() + " , "
+				+ "Numero massimo di pertecipanti : " + getNumeroMassimoPartecipanti();
 	}
 
 }
